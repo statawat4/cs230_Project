@@ -19,6 +19,6 @@ For each trace we've plotted 6 graphs, collectively showing differences using th
 
 for eg: Running for the trace bfs for the lru replacement policy.<br>
 ./build_champsim.sh bimodal no no no no lru 1 <br>
-./run_champsim.sh bimodal-no-no-no-no-lru-1core 30 30 cc-14.trace.gz <br>
+./run_champsim.sh bimodal-no-no-no-no-lru-1core 30 30 bfs-14.trace.gz <br>
 
 
