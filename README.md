@@ -1,4 +1,5 @@
-# cs230_Project
+# cs230_Project Memory/Cache hierarchy optimizations for Graph Analytics  
+
 ### Shikhar Parmar   210050145 
 ### Shriyank Tatawat 210050147
 ### Vaibhav Vishal   210050159
@@ -21,4 +22,27 @@ for eg: Running for the trace bfs for the lru replacement policy.<br>
 > ./build_champsim.sh bimodal no no no no lru 1 <br>
 > ./run_champsim.sh bimodal-no-no-no-no-lru-1core 30 30 bfs-14.trace.gz <br>
 
+##### Inclusive
 
+Inclusive specific files are provided in the folder Inclusive, which contains cache.h and cache.cc.<br>
+To run these files, copy these files to their respective location in Champsim folder.<br>
+
+> ./build_champsim.sh bimodal no no no no "replacement Policy" 1  <br>
+> ./run_champsim.sh bimodal-no-no-no-no-"replacement Policy"-1core 30 30 <Trace Name>.trace.gz <br>
+
+for eg: Running for the trace bfs for the lru replacement policy.<br>
+> ./build_champsim.sh bimodal no no no no lru 1 <br>
+> ./run_champsim.sh bimodal-no-no-no-no-lru-1core 30 30 bfs-14.trace.gz <br>
+
+
+##### Exclusive
+
+Exclusive specific files are provided in the folder Exclusive, which contain cache.cc.<br>
+To run these hierarchy, copy these files to their respective location in Champsim folder.<br>
+
+> ./build_champsim.sh bimodal no no no no "replacement Policy" 1  <br>
+> ./run_champsim.sh bimodal-no-no-no-no-"replacement Policy"-1core 30 30 <Trace Name>.trace.gz <br>
+
+for eg: Running for the trace bfs for the lru replacement policy.<br>
+> ./build_champsim.sh bimodal no no no no lru 1 <br>
+> ./run_champsim.sh bimodal-no-no-no-no-lru-1core 30 30 bfs-14.trace.gz <br>
